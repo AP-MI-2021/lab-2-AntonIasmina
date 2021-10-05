@@ -36,9 +36,9 @@ def test_get_perfect_squares():
 
 def is_leap_years(an):
     '''
-
+    Verifica daca un an este bisect.
     :param an: int
-    :return: int
+    :return: true, daca anul este bisect, false, daca anul nu este bisect.
     '''
     if an%400==0 or an%4==0 and an%100!=0 :
         return True
@@ -47,7 +47,7 @@ def is_leap_years(an):
 
 def get_leap_years(an1,an2) :
     '''
-
+    Determina anii bisecti dintre doi ani dati.
     :param an1: int
     :param an2: int
     :return: list
